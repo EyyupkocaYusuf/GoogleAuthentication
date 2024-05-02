@@ -30,7 +30,7 @@ namespace GoogleAuthentication.Controllers
 				claim.OriginalIssuer,
 				claim.Type,
 				claim.Value
-			});
+			}); // kimlik bilgilerini alır.
 
 			// return Json(claims);
 
